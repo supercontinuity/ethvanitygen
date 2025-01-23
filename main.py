@@ -3,7 +3,7 @@ from tkinter import messagebox, ttk, filedialog
 import os
 import sys
 import threading
-import json  # Import json for saving wallet details
+import json
 from eth_account import Account
 from eth_utils import is_checksum_address
 from multiprocessing import Process, Value, Queue, Lock, cpu_count, set_start_method, freeze_support
